@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <!-- ConstraintLayout-ით არ ვარ ჯერ კომფორტულად, ამიტომ მაინც LinearLayout გამოვიყენე ამ დავალებაში -->
+
+    <!-- Linear Layout -->
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Images -->
+            <ImageView
+            android:id="@+id/image1"
+            android:src="@mipmap/image1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="centerCrop"
+            />
+
+            <ImageView
+            android:id="@+id/image2"
+            android:src="@mipmap/image2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <!-- Linear Layout -->
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Images -->
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@mipmap/image3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:src="@mipmap/image4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
